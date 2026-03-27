@@ -14,22 +14,22 @@ cask "gbr" do
   on_macos do
     on_intel do
       url "https://github.com/Kadrian/gbr/releases/download/v#{version}/gbr_#{version}_darwin_amd64.tar.gz"
-      sha256 "52b6a80418caa7653899adfbb65167a36a64beb99e12ebb06b7eb690cc0fdfba"
+      sha256 "69736724c0c91ac8b972b7a692d45833bde3b8cdbe1b020b0a336f5aa24ef83d"
     end
     on_arm do
       url "https://github.com/Kadrian/gbr/releases/download/v#{version}/gbr_#{version}_darwin_arm64.tar.gz"
-      sha256 "d0a116c0bba73d05892133d782b6dcd6f589da54a52ba77b5f1d41aee5437fd4"
+      sha256 "78d076b589bc7cc2b35891efafc603beaf0ed924632a124aecb7333aeb001c5d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Kadrian/gbr/releases/download/v#{version}/gbr_#{version}_linux_amd64.tar.gz"
-      sha256 "3b4dc3dbc436637d381a3abcc77026a2685524cfd705c772553dac6dd552e830"
+      sha256 "6caaebc89eb154feab499b8faf4471d2363c6038712ae2e723965703275a3efc"
     end
     on_arm do
       url "https://github.com/Kadrian/gbr/releases/download/v#{version}/gbr_#{version}_linux_arm64.tar.gz"
-      sha256 "cf71f587bb40d1ca1bfb839659b0363be68511ac57f9e8a14b371682f16378e0"
+      sha256 "d028d7f06f9aae56a56c56ddc8e312d0eb2c3e52fd4b6474f7770115bd34e4e4"
     end
   end
 
