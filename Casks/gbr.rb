@@ -3,7 +3,7 @@ cask "gbr" do
   name "gbr"
   desc "Switch git branch interactively using arrow keys"
   homepage "https://github.com/Kadrian/gbr"
-  version "2.0.0"
+  version "2.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gbr" do
   on_macos do
     on_intel do
       url "https://github.com/Kadrian/gbr/releases/download/v#{version}/gbr_#{version}_darwin_amd64.tar.gz"
-      sha256 "136c32ec62e825363977386d797cd25365357468a884c2ee3420d379ce947b5f"
+      sha256 "da63489bb4e782a7e7e7f78e3f1f4c93a00ba0f8f32c80fe126fe6b730d1e5df"
     end
     on_arm do
       url "https://github.com/Kadrian/gbr/releases/download/v#{version}/gbr_#{version}_darwin_arm64.tar.gz"
-      sha256 "bed313df348ac1e070ed55d0571718ac14d71826cf8616c8eed55f2eead2731a"
+      sha256 "edd787a004da3010a6e7ebb8457cf10972b7005d33e3d7ee47eca81d2c02fe59"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Kadrian/gbr/releases/download/v#{version}/gbr_#{version}_linux_amd64.tar.gz"
-      sha256 "34b9d976af9967c9eed3dc2b98bc2473b0ca9c7d721a4b1cea33e7737c2ef9c0"
+      sha256 "2b6bdc8860c9161a56f469c2ca61eab45971028a34b760246742430325337b2d"
     end
     on_arm do
       url "https://github.com/Kadrian/gbr/releases/download/v#{version}/gbr_#{version}_linux_arm64.tar.gz"
-      sha256 "ff8b7b6fd209bf0d0812cb03533fae6b70d39716261b16a69d1ffec609577177"
+      sha256 "a29bce9f9bf3322cb924b7fdbb8fba11011b4c2d6c7f1fcb814c1bbe00bd24df"
     end
   end
 
